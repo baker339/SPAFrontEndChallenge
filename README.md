@@ -35,6 +35,21 @@ Those updates would need to be identifiable in some way and
 be able to match database data on some key. This way the data
 can be later changed rather than a new record on every submission. 
 
+*Why does the phone number not **validate** country code?*
+One of the bonus challenges was to validate the phone number
+provided based on the country code of the country chosen. 
+I wanted to explain why I did not do this. Both the country
+and the phone number are mandatory fields. I have a background
+in cognitive ergonmics that I learned in my undergrad education. 
+There, we learned that you cannot engineer the humans, but you 
+can engineer the systems to account for what humans do. So, 
+how does that answer the question above? Well, if both fields
+are mandatory, then we already know exactly what their country
+code is. We do not need to validate the user's knowledge of
+their country code. We can just provide the code automatically
+for the user. That is why instead of validating the country
+code, I chose to autopopulate it on the field itself. 
+
 ---
 
 
