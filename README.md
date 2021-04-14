@@ -49,6 +49,6 @@ But, right now it is really just a front facing application.
 Luckily, with something like React, connecting to a data source
 can be relatively simple, so there is nothing to worry about. 
 
-:bowtie: 😁 😌
+## :bowtie: 😁 😌
 
 ---
