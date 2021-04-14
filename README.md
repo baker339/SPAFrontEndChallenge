@@ -22,11 +22,13 @@ There are two main areas that would be necessary if this were
 a real form to be used. 
 
 *The Database*
+
 If this data were to be meaningfully used in any way, it would
 need to be captured somehow. I would imagine that any database
 structures required for this would be quite minimal. 
 
 *The API*
+
 The API to connect to the database would be important for
 two reasons. First, the answers given by the user need to be 
 sent to the database to create new records. But also, there
@@ -36,6 +38,7 @@ be able to match database data on some key. This way the data
 can be later changed rather than a new record on every submission. 
 
 *Why does the phone number not **validate** country code?*
+
 One of the bonus challenges was to validate the phone number
 provided based on the country code of the country chosen. 
 I wanted to explain why I did not do this. Both the country
